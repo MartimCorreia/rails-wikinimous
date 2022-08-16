@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto+Slab:wght@300&family=Roboto:wght@300;700&display=swap');
+ body{
+  margin: 0;
+ }
+.banner{
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-radius: 3px;
+  border-color: #e7e7e7;
+  color: rgb(195, 183, 183)
+}
+.banner a{
+  text-decoration: none;
+  color: rgb(195, 183, 183);
+}
+.banner p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.center{
+  text-align: left;
+  margin-left: 400px;
+}
+.articles a{
+  font-family:  "Roboto Slab";
+  text-decoration: none;
+  color: #4b9fcf;
+}
+.articles p{
+  font-weight: lighter;
+}
